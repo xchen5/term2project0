@@ -1,1 +1,2 @@
-# term2project0
+# TypeScript
+# OX - Oleksandr Taradachuk + Xavier Chen
