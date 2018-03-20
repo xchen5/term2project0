@@ -1,2 +1,2 @@
-# TypeScript
-OX - Oleksandr Taradachuk + Xavier Chen
+# TypeScript by OX - Oleksandr Taradachuk + Xavier Chen
+
