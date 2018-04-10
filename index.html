@@ -1,18 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  </head>
-  <body>
+<head>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">TypeScript</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="./index.html">Home</a></li>
+        <li><a href="./static.html">Static Typing</a></li>
+        <li><a href="./interfaces.html">Interfaces</a></li>
+        <li><a href="./classes.html">Classes</a></li>
+        <li><a href="./modules.html">Modules</a></li>
+      </ul>
+    </div>
+  </nav>
+  <img id="logo" src="logo.png">
   <div id="intro">
     <h1 id="title"> TypeScript </h1>
     <h2 id="subtitle"> "JavaScript that scales" </h2>
     <h4 id="names"> OX - Oleksandr + Xavier </h4>
   </div>
-  <div id="logo">
-    <img src="logo.png">
-    </div>
-  </body>
+  <br>
+  <div id="content">
+    <h2>What is TypeScript?</h2>
+    <ul>
+      <li> Open-source programming language developed by Microsoft.</li>
+      <li> More specifically, it was designed by Anders Hejlsberg (designed C#) </li>
+      <li> Superset of JavaScript </li>
+      <li> Strongly typed, object oriented, compiled language </li>
+    </ul>
+    <br>
+    <h2>Benefits of TypeScript</h2>
+    <ul>
+      <li> TypeScript compiler provides an error-checking feature to ensure quick debugging</li>
+      <li>More organized than JavaScript because of object-oriented-programming support</li>
+      <li>Superset of JavaScript so there are more features</li>
+      <li> Learning curve is smooth for developers who know JavaScript</li>
+    </ul>
+    <br>
+    <h2> How to Install and Run TypeScript </h2>
+    <ol>
+      <li> Download <a href="https://nodejs.org/en/download/"> Node.js </a> and <a href="https://www.npmjs.com/get-npm">npm</a> </li>
+      <li> Run <code> > npm install-g typescript </code></li>
+      <li> Translate code to JavaScript by using the following command (file extension is *.ts) <code> > tsc main.ts </code></li>
+      <li> Either link your JavaScript to a webpage or run it in the terminal with the folloing command. <code> > node main.js </code> </li>
+    </ol>
+  </div>
+</body>
 </html>
